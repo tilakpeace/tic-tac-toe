@@ -88,11 +88,13 @@ The application consists of two separate programs:
 
 
 
-## Possible Improvements
+## Production level implementation
+
+### Possible Improvements
 
 * Add reconnect support
 
-* Add spectator mode
+* Persistent Store like Redis (Casching) , PostgreSQL (Persistent DB)
 
 * Improve error handling
 
@@ -101,3 +103,24 @@ The application consists of two separate programs:
 * Add UI (web or desktop)    
 
 
+### Security
+
+* TLS encryption
+
+* Input validation
+
+* Authentication tokens
+
+* Rate limiting
+
+* Anti-cheat (server authoritative)
+
+### Observability
+
+* Structured logging
+
+* Metrics (Prometheus)
+
+* Tracing
+
+* Error reporting
