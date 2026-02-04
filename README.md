@@ -18,7 +18,7 @@ A simple networked Tic-Tac-Toe game implemented in Go using a client–server ar
 * go run ./server
 
 
-### 4. Run Server in multiple terminals
+### 4. Run Clients in multiple terminals
 
 * go run ./client
 
@@ -117,10 +117,12 @@ The application consists of two separate programs:
 
 ### Observability
 
-* Structured logging
+* Structured logging (Sentry)
 
 * Metrics (Prometheus)
 
-* Tracing
+* Dashboards (Grafana)
 
-* Error reporting
+* Tracing (Jaeger / Tempo)
+
+* Error reporting (Sentry)
